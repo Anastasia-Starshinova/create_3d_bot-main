@@ -1,0 +1,31 @@
+{
+  "name": "create_3d_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot built with Node.js and Telegraf",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "ts-node index.ts",
+    "build": "tsc",
+    "start:prod": "node dist/index.js"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "telegraf"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "pg": "^8.11.3",
+    "telegraf": "^4.15.0",
+    "telegraf-session-local": "^2.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.27",
+    "@types/pg": "^8.16.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
