@@ -9,7 +9,7 @@ import { setupResponseHandlers } from './handlers/responses';
 import { setupSelectionHandlers } from './handlers/selection';
 
 const BOT_TOKEN = process.env.BOT_TOKEN || 'YOUR_BOT_TOKEN_HERE';
-const DB_CONNECTION_STRING = process.env.DB_CONNECTION_STRING;
+const DB_CONNECTION_STRING = process.env.DATABASE_URL;
 
 if (!BOT_TOKEN || BOT_TOKEN === 'YOUR_BOT_TOKEN_HERE') {
   console.error('Please set BOT_TOKEN in your .env file');
